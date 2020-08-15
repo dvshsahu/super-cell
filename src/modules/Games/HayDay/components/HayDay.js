@@ -31,12 +31,19 @@ class HayDay extends React.Component {
         return (
             <Fragment>
                 <div className="app-home">
+
                     <HeaderComponent />
                     <section className="cover-section">
                         <img src={front_page_img} className="front-img" alt="main-img" />
                     </section>
+
+                    {/* GameTimeline component to show timeline Data */}
                     <GameTimeline GameTimeline={this.props.GameTimeline}/>
+                    
+                    {/* News Section component to show latest News */}
                     <NewsSection NewsSection={this.props.NewsSection} />
+                   
+                    {/* Social Media links in the Social Media Component */}
                     <SocialMedia />
                     
                     <FooterComponent />
@@ -57,4 +64,6 @@ const mapStateToProps = (state) => ({
     NewsSection : state.hayday.NewsSection
 })
 
+// Connecting to store using connect fucntion,
+// it takes mapStateToProps & MapDispatchToProps 
 export default connect(mapStateToProps, mapDispatchToProps)(HayDay);

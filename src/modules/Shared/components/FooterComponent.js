@@ -13,6 +13,8 @@ import '../styles/footer-style.css';
 const cookieDispClassName = 'display-none';
 const FooterComponent = () => {
     const [cookieConsentClass, setCookieConsentClass] = useState('cookie-consent');
+
+    // Setting the cookie consent
     var setConsentClass = () => {
         const exdays = 5;
         const cname = 'cookie-consent';
@@ -25,6 +27,7 @@ const FooterComponent = () => {
         else setCookieConsentClass(cookieDispClassName);
     }
     return (
+        // Defining the footer section
         <footer>
             <div className="footer">
                 <nav className="social-media-connect">

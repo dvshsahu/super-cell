@@ -6,11 +6,14 @@ import { Link } from 'react-router-dom';
 import './../styles/header-style.css';
 const HeaderComponent = () => {
     const [dispNone, setDispNone] = useState('display-none');
+
+    // Handling the display of second header
     function setDisplay() {
         if(dispNone == 'display-none') setDispNone('hidden-header');
         else setDispNone('display-none');
     }
     return (
+        // Header Section
         <header>
             <div className="header">
                 <div className="header-logo">
