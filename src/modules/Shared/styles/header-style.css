@@ -1,0 +1,93 @@
+header {
+    position: fixed;
+    top:0px;
+    width:100%;
+    z-index: 999;
+   
+    
+}
+.header, .hidden-header {
+    overflow: hidden;
+    background-color: black;
+    color: white !important;
+    margin: 0 auto;
+    height: 80px;
+    width: 82%;
+    text-align: center;
+}
+.hidden-header {
+    background-color: #0000006e ;
+    color: #000000 !important;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding:30px 30px
+}
+
+.logo {
+    width:4%;
+    float: left;
+    padding: 20px;
+}
+
+.header-nav>ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 20px auto;
+}
+.header-nav>ul>li:hover {
+    color: white;
+}
+.header-nav>ul>li {
+    display: inline-block;
+    margin:10px 20px;
+    color: #808080;
+    transition: 150ms;
+    cursor: pointer;
+
+}
+.hidden-header>div>nav.header-nav {
+    margin: auto 7%;
+}
+
+.hidden-header>div>nav.header-nav>ul>li {
+    color: black;
+    display: inline-block;
+    margin:10px 20px;
+    transition: 150ms;
+    cursor: pointer;
+}
+.hidden-header>div>nav.header-nav>ul>li:hover {
+    color: white;
+    
+}
+
+.header-nav {
+    float:left;
+}
+.header-search {
+    /* background-color: red; */
+    float:right;
+    border-left:1px solid #808080;
+    height:inherit;
+    width:100px;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 24px;
+}
+.header-search>div>img { 
+    width:22%
+}
+.header-logo-id {
+    float: right;
+    text-align: right;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 24px;
+}
+
+.header-logo-id>img {
+    width: 45%;
+}

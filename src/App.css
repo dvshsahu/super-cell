@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: auto;
+    font-size: 14px;;
+}
+
+.App {
+    text-align : center;
+}
+
+
+
+.text-red {
+    color : #fb4a9d;
+}
+ 
+  .cookie-consent {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      margin: auto auto;
+      background-color: black;
+      padding:0 20px;
+  }
+  .cookie-consent >div{
+      float:right;
+      text-align: left;
+      padding:30px;
+  }
+  .cookie-consent>.cookie-msg {
+      float: left;
+  }
+
+  .display-none {
+      display: none;
+  }
+
+  

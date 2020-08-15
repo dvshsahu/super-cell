@@ -1,0 +1,2 @@
+export const GET_GAME_TIMELINE = "GET_GAME_TIMELINE";
+export const GET_NEWS_SECTION = "GET_NEWS_SECTION";

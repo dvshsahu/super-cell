@@ -1,0 +1,72 @@
+
+.news-section > .left-content {
+    position: absolute;
+    top: 25%;
+    right: 16%;
+    left: auto;
+    color: white;
+  }
+
+  .news-section {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color:#1d2538;
+}
+.left-content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+}
+.para-2-section>.left-content {
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    color: black;
+  }
+
+
+.news-section {
+    background-color: black;
+}
+.main-info-content-1 {
+    max-width: 400px;
+}
+
+.left-content > .header-content {
+    font-size: 36px;
+}
+.left-content > .main-info-content {
+    margin: 20px auto;
+    font-size: 18px;
+}
+.right-content {
+  position: absolute;
+  bottom: 0%;
+  color: white;
+}
+.hayday-info-section  > .right-content {
+    position: absolute;
+    bottom: 0%;
+    right: 16%;
+    color: black;
+  }
+
+.hayday-info-section  > .left-content {
+    color:black;
+}
+ .para-2-section > .right-content >img,
+ .news-section > .right-content >img  {
+    float: left;
+    width: 59%;
+    margin-left: -272px;
+    margin-bottom: 30px;
+}
+
+.para-2-section,
+.hayday-info-section  {
+    min-height: 450px;
+    position: relative;
+    border-bottom: 1px solid #808080;
+}

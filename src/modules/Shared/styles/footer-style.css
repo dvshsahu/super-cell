@@ -1,0 +1,66 @@
+footer {
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footer {
+    width: 85%;
+    margin:0 auto;
+}
+
+.main-content {
+    padding-top:40px;
+}
+
+.social-media-connect {
+    border-bottom: 1px solid #484848;
+}
+.social-media-connect>ul>li,
+.media-links-connect>ul>li  {
+    display: inline-block;
+    margin:10px;
+}
+ul.social-media-nav>li:first-child {
+    margin-left:0;
+}
+
+.social-media-connect>ul>li>img {
+    height: 28px;
+}
+.social-media-nav {
+    margin-top:0;
+    padding:0px;
+}
+.store-connect {
+    float: right;
+}
+.social-media-connect>ul>li.store-connect>img {
+    height: 40px;
+}
+
+.media-links-connect {
+    margin-top:45px;
+}
+.media-link-nav {
+    padding:0px;
+}
+ul.media-link-nav>li:first-child {
+    margin-left:0px;
+}
+.playsimple-connect {
+    display: block;
+    color:grey
+}
+.playsimple-connect>address {
+    float:left;
+}
+.playsimple-connect>.supercell-logo {
+    float:right;
+}
+.supercell-logo {
+    float: right;
+}
+.supercell-logo >img{
+    height: 45px;
+}

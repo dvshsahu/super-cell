@@ -1,24 +1,43 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import './App.css';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import Home from './modules/Home/components/Home';
+import hayDay from './modules/Games/HayDay/components/HayDay';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <main className="app-main">
+        <div className="app-main-in">
+          <AppRouter />
+        </div>
+      </main>
+    </Fragment>
   );
 }
+
+
+
+
+/**
+ * component for routing
+ */
+const AppRouter = () => (
+  <Router>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/games" component={hayDay} />
+      <Route path="/games/hayday"  component={hayDay} />
+    </Switch>
+  </Router>
+);
+
 
 export default App;
